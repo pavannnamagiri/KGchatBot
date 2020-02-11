@@ -1,0 +1,68 @@
+.login-main {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.login-main ul {
+	display: block;
+	width: fit-content;
+	margin: 20px auto;
+}
+
+.login-main .login-content {
+	margin-top: 15%;
+	padding: 40px;
+	border: 1px solid #ccc;
+	width: 50%;
+	border-radius: 5px;
+	-webkit-box-shadow: -1px 9px 14px 0px #ccc;
+	box-shadow: -1px 9px 14px 0px #ccc;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+}
+
+.login-main .login-content input {
+	width: 40%;
+	margin: auto;
+}
+
+.login-main .login-content input[tyep=submit] {
+	background-color: #8fd160;
+	font-weight: 300;
+	margin: auto;
+	width: 10%;
+}
+
+.login-main .login-content span {
+	margin: auto;
+}
+
+.registration-status {
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+	border-radius: 15px;
+	position: absolute;
+	right: 27px;
+	top: 43px;
+	display: none;
+}
+
+.registration-status .registration-status-container {
+	padding: 25px;
+}
+
+.registration-status .registration-status-container p {
+	font-size: 20px;
+}
+/*# sourceMappingURL=test.css.map */
+/*# sourceMappingURL=login.css.map */

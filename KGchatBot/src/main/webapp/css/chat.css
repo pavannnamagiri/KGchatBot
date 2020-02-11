@@ -1,0 +1,219 @@
+a{
+	color: black;
+	
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.main-chat-typespace:focus,
+.main-chat-user-text:focus {
+  outline: none;
+  -webkit-box-shadow: -1px 9px 14px 0px #ccc;
+          box-shadow: -1px 9px 14px 0px #ccc;
+}
+
+.main-chat .main-chat-header {
+  background-color: #c93a5c;
+  min-height: 5vh;
+  color: #fff;
+  font-weight: 400;
+  -webkit-box-shadow: -1px 9px 14px 0px #ccc;
+          box-shadow: -1px 9px 14px 0px #ccc;
+  font-family: Lobster, cursive;
+  border-radius: 5px;
+}
+
+.main-chat .main-chat-header h2 {
+  display: inline;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.main-chat .main-chat-header .logo-image {
+  height: 3em;
+  width: 2em;
+}
+
+.main-chat .main-chat-header .user-name {
+	font-size: 20px;
+  float: right;
+}
+
+.main-chat .main-chat-content::-webkit-scrollbar {
+  display: none;
+}
+
+.main-chat .main-chat-content {
+  height: 85vh;
+  background-color: #f0f3f7;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-y: scroll;
+  overflow: -moz-scrollbars-none;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.main-chat .main-chat-content .message-bot {
+  background-color: #2abdf7;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 40px;
+  margin-right: auto;
+}
+
+.main-chat .main-chat-content .message-client {
+  margin-left: auto;
+  background-color: #d9dbde;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 40px;
+  margin-top: 5px;
+}
+
+.main-chat .main-chat-content .message-time-client {
+  color: #ccc;
+  font-size: 9px;
+  margin-left: auto;
+}
+
+.main-chat .main-chat-content .message-time-bot {
+  color: #ccc;
+  font-size: 9px;
+  margin-right: auto;
+}
+
+.main-chat .main-chat-typespace {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  border: 3px solid #f0f3f7;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.main-chat .main-chat-typespace .main-chat-user-text {
+  width: 97%;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #c0f2a5;
+    border-radius: 5px;
+}
+
+.main-chat .main-chat-typespace .main-chat-send {
+  background-color: #f0f3f7;
+  border-radius: 50px;
+}
+
+.main-chat .main-chat-typespace .main-chat-send i {
+  padding: 8px;
+  color: gold;
+  font-size: 20px;
+  float: right;
+}
+
+.close-btn-chat {
+  position: absolute;
+  top: 53px;
+  right: 23px;
+  font-size: 25px;
+}
+
+.chat-rating {
+  display: none;
+  box-shadow: -1px 9px 14px 0px #ccc;
+  position: absolute;
+  background-color: #c5e3cd;
+  left: 30%;
+  top: 20%;
+  border-radius: 15px;
+}
+
+.chat-rating .rating-stars {
+  padding: 10px 46px;
+}
+
+.chat-rating .rating-stars i {
+  padding: 22px;
+  color: #fff;
+  font-size: 50px;
+}
+
+.chat-rating .rating-stars .yellow-bg {
+  color: goldenrod;
+}
+
+.chat-rating p {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 700px;
+}
+
+.chat-rating .btn {
+  display: block;
+  margin: 10px auto;
+}
+
+.chat-rating .rating-reaction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.chat-rating .rating-reaction span {
+  font-size: 63px;
+  display: none;
+  margin: 2px auto;
+}
+
+.bucketListContainer {
+	position: absolute;
+	
+}
+.bucketListContainer .bucketObjectList{
+	padding: 4px;
+}
+.bucketListContainer .bucketObjectList {
+	list-style: none;
+}
+.bucketListContainer .bucketObjectList li {
+	border: 1px solid #d5e1f5;
+	padding: 5px;
+    border-radius: 8px;
+}
+.uploadModal {
+	font-size: large;
+	
+}
+.uploadModal .upload-status {
+	
+
+	
+	}
+.pdf-upload-btn {
+	position: absolute;
+    top: 129px;
+    right: 23px;
+}
+	
+	
+/*# sourceMappingURL=chat.css.map */
